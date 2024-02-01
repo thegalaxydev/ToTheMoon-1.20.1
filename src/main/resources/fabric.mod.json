@@ -3,20 +3,23 @@
 	"id": "tothemoon",
 	"version": "${version}",
 	"name": "ToTheMoon",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Core mod meant to be used with the To The Moon modpack.",
 	"authors": [
-		"Me!"
+		"TheGalaxyDev"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tothemoon/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.galaxy.tothemoon.ToTheMoon"
+		],
+		"client": [
+			"net.galaxy.tothemoon.ToTheMoonClient"
 		],
 		"fabric-datagen": [
 			"net.galaxy.tothemoon.ToTheMoonDataGenerator"
