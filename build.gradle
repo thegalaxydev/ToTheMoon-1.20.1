@@ -96,6 +96,7 @@ dependencies {
 	modImplementation "com.teamresourceful.resourcefulconfig:resourcefulconfig-fabric-${minecraft_version}:${resourcefulconfig_version}"
 	modImplementation ("earth.terrarium.botarium:botarium-fabric-${minecraft_version}:${botarium_version}")
 
+	modImplementation "com.github.apace100:apoli:${apoli_version}"
 	// Create
 	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
 
